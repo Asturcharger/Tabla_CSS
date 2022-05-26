@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.background{
+    background-color:burlywood;
+    width: 600px;
+    height: 400px;    
+    display: flex;
+    flex-direction: column;
+}
+.title1{
+    width: 100%;
+    height: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.table{
+    width: 70%;
+    height:45%;
+    align-self: center;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto ;
+
+}
+.colores{
+    background-color: green;
+    grid-column-start:1;
+    grid-column-end: 7;
+    text-align: center;
+    font-weight: bold;
+}
+.black{
+    background-color: black;
+}
+.teal{
+    background-color:teal;
+    text-display: flex;
+    align-content: center;
+}
+.blue{
+    background-color:blue;
+}
+.navy{
+    background-color:navy;
+}
+.lime{
+    background-color:lime;
+}
+.white{
+    background-color:white;
+}
+.purple{
+    background-color:purple;
+}
+.yellow{
+    background-color:yellow;
+}
+.olive{
+    background-color:olive;
+}
+.red{
+    background-color:red;
+}
+.gray{
+    background-color:gray;
+}
+.fuchsia{
+    background-color:fuchsia;
+}
+.green{
+    background-color: green;
+    grid-column-start:4;
+    grid-column-end: 7;
+}
+.title2{
+    width: 100%;
+    height:20%;
+    font-size: 25px;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.words{
+    width: 80%;
+    height:45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    font-size: 25px;
+}
+p>span{margin-right: 5px;}
+.black1{
+    color:black;
+}
+.teal1{
+    color:teal;
+}
+.blue1{
+    color:blue;
+}
+.navy1{
+    color:navy;
+}
+.lime1{
+    color:lime;
+}
+.white1{
+    color:white;
+}
+.purple1{
+    color:purple;
+}
+.yellow1{
+    color:yellow;
+}
+.olive1{
+    color:olive;
+}
+.red1{
+    color:red;
+}
+.marron1{
+    color:brown;
+}
+.gray1{
+    color:gray;
+}
+.fuchsia1{
+    color:fuchsia;
+}
+.green1{
+    color:green;
+}
+.aqua1{
+    color:aqua;
+}
+.silver1{
+    color: silver;
+}
